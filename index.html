@@ -10,47 +10,56 @@
 </head>
 
 <!-- Body -->
+
 <body>
 
     <!-- Header -->
-    <header class="main-header" >
+    <header class="main-header">
         <h1>Sam March</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum.</p>
+        <img id="headshot" src="assets\Images\Headshot.jpg" alt="Headshot" />
+        <p id="myinfo">Hi there! As you can see, my name is Sam March and this is my portfolio webpage. I have been a
+            chef for all of my working life, although things like computers and programming have always held an interest
+            for me, I never dared to persue it. I have come to the end of my career as a chef and have been searching
+            for something new. Across the website you will find information about my past work, current projects and
+            other information such as my email. This will be an ongoing project, getting updated as I learn more and
+            more about programming, I hope you enjoy your stay.
+        </p>
     </header>
 
     <!-- Navbar -->
     <nav>
-        <a href="#">About Me</a>
-        <a href="#">Work</a>
-        <a href="#">Contact Me</a>
-        <a href="#">Resume</a>
+        <a href="#myinfo">About Me</a>
+        <a href="#code-refractor">Work</a>
+        <a href="#contact">Contact Me</a>
+        <a href="assets\Resume.docx">Resume</a>
     </nav>
 
     <main>
+
         <section class="card">
-            <header>Code Refactor</header>
-            <img src="assets\Images\image-placeholder-500x500-1.jpeg" alt="Lorem ispum" />
+            <header>Future Project</header>
+            <img src="assets\Images\image-placeholder-500x500-1.jpeg" alt="Placeholder image" />
         </section>
         <section class="card">
             <header>Future Project</header>
-            <img src="assets\Images\image-placeholder-500x500-1.jpeg" alt="Lorem ispum" />
+            <img src="assets\Images\image-placeholder-500x500-1.jpeg" alt="Placeholder image" />
         </section>
         <section class="card">
             <header>Future Project</header>
-            <img src="assets\Images\image-placeholder-500x500-1.jpeg" alt="Lorem ispum" />
+            <img src="assets\Images\image-placeholder-500x500-1.jpeg" alt="Placeholder image" />
         </section>
-        <section class="card">
-            <header>Future Project</header>
-            <img src="assets\Images\image-placeholder-500x500-1.jpeg" alt="Lorem ispum" />
+        <section class="card" id="code-refractor">
+            <a href="https://sammarch.github.io/Challenge-1/">
+                <header>Code Refactor</header>
+                <img src="assets\Images\digital-marketing-meeting.jpg"
+                    alt="Background image for Code Refractor project" />
+            </a>
         </section>
+
     </main>
 
     <!-- Footer -->
-    <footer>
+    <footer id="contact">
         <h3>Contact Info</h3>
         <p>Ph: 0424 889 541 Email: marchsam1988@gmaail.com</p>
         <h4>Credits</h4>
