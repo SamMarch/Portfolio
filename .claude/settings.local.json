@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(claude config set -g installation_method npm-global)"
+    ],
+    "deny": []
+  }
+}
