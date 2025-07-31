@@ -12,13 +12,13 @@ const About = () => {
         <div className="about-content">
           <div className="about-text">
             <p>
-              I'm a passionate full-stack developer with a love for creating intuitive and 
-              efficient web applications. With expertise in both frontend and backend technologies, 
-              I enjoy tackling complex problems and turning ideas into reality.
+              I'm an enthusiastic developer on an exciting journey into the world of web development. 
+              Currently building my skills in modern technologies like React, TypeScript, and Node.js, 
+              I'm eager to create meaningful applications that solve real-world problems.
             </p>
             <p>
-              When I'm not coding, you can find me exploring new technologies, contributing to 
-              open-source projects, or sharing knowledge with the developer community.
+              I'm actively working on new projects to expand my portfolio and deepen my understanding 
+              of full-stack development. Always open to learning opportunities and collaboration!
             </p>
           </div>
           <div className="skills-section">
