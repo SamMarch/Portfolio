@@ -16,7 +16,7 @@ export const projects: Project[] = [
     technologies: ["React", "TypeScript", "Vite", "CSS3"],
     githubUrl: "https://github.com/SamMarch/Portfolio",
     liveUrl: "https://sammarch.github.io/Portfolio/",
-    imageUrl: "/images/portfolio.png"
+    imageUrl: "./images/portfolio.png"
   }
   // More projects coming soon!
 ]
