@@ -10,7 +10,7 @@ const Contact = () => {
 
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault()
-    const mailtoLink = `mailto:your.email@example.com?subject=Portfolio Contact from ${formData.name}&body=${formData.message}%0D%0A%0D%0AFrom: ${formData.email}`
+    const mailtoLink = `mailto:marchsam1988@gmail.com?subject=Portfolio Contact from ${formData.name}&body=${formData.message}%0D%0A%0D%0AFrom: ${formData.email}`
     window.location.href = mailtoLink
   }
 
@@ -33,13 +33,13 @@ const Contact = () => {
               Whether you have a question or just want to say hi, feel free to reach out!
             </p>
             <div className="contact-links">
-              <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="contact-link">
+              <a href="https://github.com/SamMarch" target="_blank" rel="noopener noreferrer" className="contact-link">
                 GitHub
               </a>
-              <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="contact-link">
+              <a href="https://www.linkedin.com/in/sam-march-b9689323a/" target="_blank" rel="noopener noreferrer" className="contact-link">
                 LinkedIn
               </a>
-              <a href="mailto:your.email@example.com" className="contact-link">
+              <a href="mailto:marchsam1988@gmail.com" className="contact-link">
                 Email
               </a>
             </div>

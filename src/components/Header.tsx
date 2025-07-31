@@ -8,7 +8,7 @@ const Header = () => {
     <header className="header">
       <div className="container">
         <div className="nav-wrapper">
-          <h1 className="logo">Your Name</h1>
+          <h1 className="logo">Sam March</h1>
           <nav>
             <ul className="nav-links">
               <li><a href="#home" onClick={(e) => { e.preventDefault(); scrollToSection('home') }}>Home</a></li>
