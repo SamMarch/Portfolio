@@ -4,7 +4,8 @@
       "Bash(claude config set -g installation_method npm-global)",
       "Read(//mnt/c/Users/User/Code/**)",
       "Bash(npm outdated)",
-      "Bash(npm:*)"
+      "Bash(npm:*)",
+      "WebFetch(domain:affirmingminds.com.au)"
     ],
     "deny": []
   }
