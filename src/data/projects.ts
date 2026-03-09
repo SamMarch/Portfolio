@@ -20,6 +20,15 @@ export const projects: Project[] = [
   },
   {
     id: 2,
+    title: "Invoice Generator",
+    description: "A mobile-first invoice generator built for freelancers and contractors on the go. Features live preview, dynamic line items, automatic GST calculation, and PDF export.",
+    technologies: ["React", "Vite", "Tailwind CSS", "jsPDF"],
+    githubUrl: "https://github.com/SamMarch/invoice-generator",
+    liveUrl: "https://sammarch.github.io/invoice-generator/",
+    imageUrl: "./images/invoice-generator.png"
+  },
+  {
+    id: 3,
     title: "Portfolio Website",
     description: "A modern, responsive portfolio website built with React and TypeScript to showcase my projects and skills.",
     technologies: ["React", "TypeScript", "Vite", "CSS3"],
