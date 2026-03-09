@@ -1,8 +1,8 @@
 const About = () => {
   const skills = {
     frontend: ["React", "TypeScript", "JavaScript", "HTML/CSS", "Tailwind CSS", "Next.js"],
-    backend: ["Node.js", "Express", "Python", "Django", "PostgreSQL", "MongoDB"],
-    tools: ["Git", "Docker", "AWS", "CI/CD", "Jest", "Webpack"]
+    backend: ["Node.js", "Express", "Python", "PostgreSQL", "MongoDB"],
+    tools: ["Git", "Docker", "CI/CD"]
   }
 
   return (
