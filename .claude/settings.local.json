@@ -1,7 +1,10 @@
 {
   "permissions": {
     "allow": [
-      "Bash(claude config set -g installation_method npm-global)"
+      "Bash(claude config set -g installation_method npm-global)",
+      "Read(//mnt/c/Users/User/Code/**)",
+      "Bash(npm outdated)",
+      "Bash(npm:*)"
     ],
     "deny": []
   }
