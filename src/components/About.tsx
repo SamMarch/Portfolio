@@ -12,13 +12,16 @@ const About = () => {
         <div className="about-content">
           <div className="about-text">
             <p>
-              I'm an enthusiastic developer on an exciting journey into the world of web development. 
-              Currently building my skills in modern technologies like React, TypeScript, and Node.js, 
-              I'm eager to create meaningful applications that solve real-world problems.
+              Software developer with a non-traditional path that's become a genuine advantage. After
+              nearly a decade leading teams in hospitality, I made a deliberate move into tech —
+              graduating from the University of Adelaide's Full Stack bootcamp with 97%. Since then
+              I've built client-facing form systems, developed internal tools with React and Vite,
+              created front-end SPAs, and documented end-to-end workflows at a professional level.
             </p>
             <p>
-              I'm actively working on new projects to expand my portfolio and deepen my understanding 
-              of full-stack development. Always open to learning opportunities and collaboration!
+              I'm looking for roles where I can build real things that solve real problems — whether
+              that's writing code, designing a system, or improving how a team works. I care about
+              clean solutions, clear documentation, and getting things done properly.
             </p>
           </div>
           <div className="skills-section">
