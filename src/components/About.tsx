@@ -14,7 +14,7 @@ const About = () => {
             <p>
               Software developer with a non-traditional path that's become a genuine advantage. After
               nearly a decade leading teams in hospitality, I made a deliberate move into tech —
-              graduating from the University of Adelaide's Full Stack bootcamp with 97%. Since then
+              graduating from the University of Adelaide's Full Stack bootcamp with a distinction (97%). Since then
               I've built client-facing form systems, developed internal tools with React and Vite,
               created front-end SPAs, and documented end-to-end workflows at a professional level.
             </p>
